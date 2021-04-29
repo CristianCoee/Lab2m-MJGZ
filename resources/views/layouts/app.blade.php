@@ -52,7 +52,10 @@
                                 </li>
                             @endif
                         @else
-                           
+                        <li class="nav-item">
+                        <a class="nav-link" href="{{ route('productos.index') }}">{{ __('Productos') }}</a>
+        </li>
+
 
                                 
                                     <a class="dropdown-item" href="{{ route('logout') }}"
